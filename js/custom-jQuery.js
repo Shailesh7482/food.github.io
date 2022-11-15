@@ -15,8 +15,17 @@ $(document).ready(function () {
     })
 })
 
+// $(document).ready(function(){
+    // $(window).on('scroll',function(){
+    //     if($(window).scrollTop()){
+    //         $('.header-area').addClass('black')
+    //     }
+    //     else{
+    //         $('.header-area').removeClass('black');
+    //     }
+    // })
 
-
+ 
     window.addEventListener('scroll',function(){
         var navbar = document.querySelector('.header-area');
         if(window.pageYOffset > 300){

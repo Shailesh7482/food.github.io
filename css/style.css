@@ -28,7 +28,7 @@ html {
 header {
     width: 100%;
     height: 100%;
-    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url('../img/bg.jpg');
+    background-image:linear-gradient(rgba(0,0,0,0.4),rgba(0,0,0,0.4)),url("../img/bg.jpg");
     background-size: cover;
     background-position: center;
     overflow: hidden;
@@ -43,6 +43,10 @@ header {
 
 
 .header-area{
+    /* background-color: rgb(5, 5, 53); */
+    /* background: transparent; */
+    /* background-color: rgba(0,0,0,0.3); */
+    /* padding: 12px 30px; */
     background-color: black;
     width: 100%;
     height: 70px;
@@ -56,7 +60,8 @@ header {
     width: 90%;
     margin:  0 auto;
     padding-bottom: 1rem;
-    display: table;
+    display: table; 
+   
 }
 .site-logo{
     float: left;
@@ -138,7 +143,11 @@ li{
     line-height: 6rem;
     color: rgba(243, 243, 243, 0.97);
     letter-spacing: 0.3px;
+    /* font-family: 'Lobster', cursive; */
+    /* font-family: 'Roboto Slab', serif; */
     font-family: 'Titillium Web', sans-serif;
+    /* font-family: 'Dancing Script', cursive; */
+
 }
 
 .banner-text .icon {
@@ -455,7 +464,7 @@ article{
         transition: all .5s;
     }
     .primary-menu a:hover{
-        color: #000;
+        color: black;
     }
 
     .primary-menu .active{
@@ -582,6 +591,12 @@ article{
 
 
 @media only screen and (max-width:518px){
+    .banner-text h1{
+        font-size: 1.5rem;
+        line-height: 3rem;
+        padding-top: 2rem;
+        margin-bottom: 1rem;
+    }
     .main-box-footer{
         position: relative;
         left: 30%;
@@ -595,91 +610,4 @@ article{
     
 
 }
-
-
-#table-section-two{
-    background-color: #fff;
-}
-
-
-
-@media only screen and (max-width:1120px){
-    .box-red{
-        flex-direction: column;
-        text-align: center;
-    }
-    .box-red h1{
-        padding-left: 0;
-    }
-    .btn-3{
-        border-radius: 10px;
-        font-size: 1.3rem;
-        text-transform: capitalize;
-    }
-    .drinks-section{
-        flex-direction: column;
-        text-align: center;
-    }
-    .drinks-heading h1{
-        font-size: 3rem;
-    }
-    .drinks p{
-       text-align: left;
-    }
-    
-
-}
-@media only screen and (max-width:900px){
-    #Our-menu{
-        margin-top:10% ;
-        font-size: 5rem;
-        margin-top: 1rem;
-    }
-    .drinks h2{
-        font-size: 1.5rem;
-        margin-right: 0rem;
-        text-align: center;
-    }
-    .drinks p{
-        font-size:1rem;
-    }
-
-}
-@media only screen and (max-width:650px){
-    .box-red h1{
-       font-size: 1.5rem;
-    }
-    #Our-menu{
-        margin-top:10% ;
-        font-size: 3rem;
-        
-    }
-
-}
-@media only screen and (max-width:448px){
-    .drinks h2{
-        font-size: 1.2rem;
-        margin-right: 0rem;
-        text-align: center;
-    }
-    .drinks p{
-        font-size:0.9rem;
-    }
-    .drinks-heading h1{
-        font-size: 3rem;
-    }
-
-}
-
-
-
-
-
-
-
-
-
-
-
-
 

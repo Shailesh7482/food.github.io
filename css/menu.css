@@ -1,6 +1,3 @@
-/* --------------------------------------------------------
-#Menu Page
------------------------------------------------------------ */
 header {
     width: 100%;
     height: 100%;
@@ -10,7 +7,6 @@ header {
     overflow: hidden;
     /* scroll-behavior: smooth; */
 }
-
 #Our-menu{
     padding-top: 4%;
     font-size: 6rem;
@@ -113,3 +109,77 @@ header {
 }
 
 /* menu-section-three end  */
+
+#table-section-two{
+    background-color: #fff;
+}
+
+
+
+@media only screen and (max-width:1120px){
+    .box-red{
+        flex-direction: column;
+        text-align: center;
+    }
+    .box-red h1{
+        padding-left: 0;
+    }
+    .btn-3{
+        border-radius: 10px;
+        font-size: 1.3rem;
+        text-transform: capitalize;
+    }
+    .drinks-section{
+        flex-direction: column;
+        text-align: center;
+    }
+    .drinks-heading h1{
+        font-size: 3rem;
+    }
+    .drinks p{
+       text-align: left;
+    }
+    
+
+}
+@media only screen and (max-width:900px){
+    #Our-menu{
+        margin-top:10% ;
+        font-size: 5rem;
+        margin-top: 1rem;
+    }
+    .drinks h2{
+        font-size: 1.5rem;
+        margin-right: 0rem;
+        text-align: center;
+    }
+    .drinks p{
+        font-size:1rem;
+    }
+
+}
+@media only screen and (max-width:650px){
+    .box-red h1{
+       font-size: 1.5rem;
+    }
+    #Our-menu{
+        margin-top:10% ;
+        font-size: 3rem;
+        
+    }
+
+}
+@media only screen and (max-width:448px){
+    .drinks h2{
+        font-size: 1.2rem;
+        margin-right: 0rem;
+        text-align: center;
+    }
+    .drinks p{
+        font-size:0.9rem;
+    }
+    .drinks-heading h1{
+        font-size: 3rem;
+    }
+
+}
